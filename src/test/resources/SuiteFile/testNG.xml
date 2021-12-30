@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite">
+    <test name="Test">
+        <parameter name="runType" value="${runType}"></parameter>
+        <parameter name="browser" value="${browser}"></parameter>
+        <classes>
+            <class name="ecommerce.runner.RunCucumberTest"/>
+        </classes>
+    </test>
+</suite>
